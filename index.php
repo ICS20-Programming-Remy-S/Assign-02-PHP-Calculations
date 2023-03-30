@@ -35,5 +35,8 @@
 				The Surface area of your tetrahedron is" + $$surfaceArea.tofixed(2) + (cm<sup>2</sup>)
         The volume of your tetrahedron is" + $$volume.tofixed(2) + (cm<sup>3</sup>)
 	    </iframe>
+    <centre>
+    <img src="./images/Tetrahedron.svg" width="300" height="300">
+    </centre>
 	</body>
 </html>
