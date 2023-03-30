@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="My first webpage with user input">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Remy Skelton">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Code for the favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
@@ -15,7 +15,7 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
-    <title>Area of a trapezoid</title>
+    <title>Surface area and volue of a tetrahedron</title>
   </head>
   <body>
 		<!-- php echo to print the html to the page -->
@@ -25,14 +25,15 @@
 		?>
 		<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
-      <label for="aEdge">aEdge of the tetrahedron:</label>
+      <label for="aEdge">A Edge of the tetrahedron:</label>
         <input type="number" id="aEdge" placeholder="A Edge side in cm" step=".01" name="aEdge"><br><br>
         <input type="submit" value="calculate">
 		</form>
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">			
-				The area of your trapezoid is" + $$area.tofixed(2) + (cm<sup>2</sup>)
+				The Surface area of your tetrahedron is" + $$surfaceArea.tofixed(2) + (cm<sup>2</sup>)
+        The volume of your tetrahedron is" + $$volume.tofixed(2) + (cm<sup>3</sup>)
 	    </iframe>
 	</body>
 </html>
