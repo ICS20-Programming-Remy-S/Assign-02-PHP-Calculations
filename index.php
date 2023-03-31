@@ -18,7 +18,7 @@
     <title>Surface area and volue of a tetrahedron</title>
   </head>
   <body>
-		<!-- php echo to print the html to the page -->
+    <!-- php echo to print the html to the page -->
     <?php 
 			echo "<h1>Area of a trapezoid</h1>";
 			echo "<h3>Please enter your trapezoid information</h3>";
