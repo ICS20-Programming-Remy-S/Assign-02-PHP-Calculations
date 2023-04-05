@@ -35,8 +35,9 @@
 				The Surface area of your tetrahedron is" + $$surfaceArea.tofixed(2) + (cm<sup>2</sup>)
         The volume of your tetrahedron is" + $$volume.tofixed(2) + (cm<sup>3</sup>)
 	    </iframe>
-    <centre>
+        <h3>The tetrahedron is an interesting shape that has been used in many different ways. But the most famous way is how it is used in one of the seven wonders of the world. The wonder of the world that we can see it used in is the great pyramid of Giza, and the pyramid is still admired by all.</h3>
+    <h1>
     <img src="./images/Tetrahedron.svg" width="300" height="300">
-    </centre>
+    </h1>
 	</body>
 </html>
